@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color: blueviolet;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;overflow-x: auto;
+}
+
+.boxes {
+    text-align: center;
+    padding: 100px 20px;
+    top: 58px;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.box {
+    margin: 20px;
+    position: relative;
+    background-color: brown;
+    border: 2px solid;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+span {
+    display: block;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
